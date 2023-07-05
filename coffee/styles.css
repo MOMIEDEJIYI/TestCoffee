@@ -1,0 +1,138 @@
+body{
+	background:url(img/back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#topBack{
+	background: url(img/back2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+#topBackMenu{
+	background: url(img/Menu.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+#topBackMusic{
+	background: url(img/music.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+#topBackJobs{
+	background: url(img/Jobs.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+#title{
+	line-height: 500px;
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+	line-break: 500px;
+	color: #FFFFFF;
+}
+
+
+#main{
+	background-color: #000000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+#main #top{
+	height: 70px;
+	width: 100%;
+}
+
+#main #top a{
+	display: block;
+	color: #FFFFFF;
+	width: 100px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	margin-top:20px ;
+	font-size: 18px;
+}
+
+#main #top a:hover{
+	color: #C0A16B;
+	text-decoration: none;
+	background: url(img/here.png);
+}
+
+#main #top #topnav{
+	color: #C0A16B;
+	font-weight:bloder ;
+	font-size: 50px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+/*底页*/
+#xia{
+	width: 100%;
+	height: 100px;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 100px;
+}
+/*底页*/
+
+
+
+/*咖啡介绍*/
+#main #coffeeIntro{
+	color: #FFFFFF;
+	
+}
+
+#main #coffeeIntro #cont{
+	width: 100%;
+}
+
+#main #coffeeIntro #laug{
+	margin-top:20px ;
+}
+
+#main #coffeeIntro #question{
+	font-size:19px;
+	font-weight: bold;
+	color: #C0A16B;
+}
+
+#main #coffeeIntro #awser{
+	font-size:17px;
+}
+
+#main #coffeeIntro #picture{
+	text-align: center;
+	margin-bottom:10px ;
+}
+
+#main #coffeeIntro #tip{
+	color: #C0A16B;
+	font-size:17px;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 30px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}

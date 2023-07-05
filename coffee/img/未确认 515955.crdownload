@@ -1,0 +1,36 @@
+package AccountApp;
+
+/**
+ * 1、实现银行转帐程序。设计一个客户账号类，具体要求如下：
+ *
+ *     （1）设计一个账号类Account，该类需要一个Name属性存储该账号用户姓名，需要有一个Balance属性记录该用户下账户余额。
+ *
+ *     （2）该类有一个Receive(double amount)方法用于实现收钱功能，有一个TansforTo(Account a, double amount)方法用于转帐给指定账户功能。
+ *
+ *     （3）测试类中，创建一个用户名为Joe的账号，当前账户余额为100，一个名为Bob的账号，账户余额为100。尝试从Joe的账户先后转50和100到Bob账户中，每次转账后显示提示信息。
+ */
+public class Account {
+    public String name;
+    public double balance;
+
+    public Account(String name, double balance) {
+        this.name = name;
+        this.balance = balance;
+    }
+
+    public Account() {
+    }
+
+    public void Receive(double amount)
+    {
+        this.balance +=amount;
+    }
+    public boolean TransferTo(Account a,double amount){
+        if(this.balance >=amount) {
+            this.balance = this.balance - amount;
+            a.Receive(amount);
+            return true;
+        }
+        else return false;
+    }
+}
